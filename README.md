@@ -7,24 +7,36 @@
 
 
 WiDS ‘22 - ‘23 Final Documentation
+
 25 - Movie Recommendation System
+
 Mentor- Yadav Amar Singh
+
 Team Member Name Roll Number Email-Id
+
 KIRAN PRAKASH EC 22M1514 22m1514@iitb.ac.in
+
 Introduction to Problem Statement
+
 Aimed to develop an advanced movie recommendation system using a combination of natural
 language processing (NLP) techniques, machine learning algorithms, and web scraping. The
 primary goal was to create a content-based recommendation system that provides
 personalized movie recommendations to users based on their preferences and sentiment
 analysis of movie reviews.
+
 Existing Resources
+
 Retrieve movie metadata from Wikipedia and The Movie Database (TMDB) websites using the
 tmdbv3api library.
+
 Proposed Solution
+
 Content-based Recommendation system:
 This technique makes recommendations based on the characteristics of the movies
 themselves, such as their overview, genre, director, tagline etc.
+
 Methodology & Progress (Mention the work done week-wise)
+
 Week 1: Utilized the tmdbv3api library to collect movie metadata from Wikipedia and TMDB.
 Applied NLP techniques including lemmatization and regex to preprocess the movie data.
 The focus was on learning the basics of movie recommendation systems, gaining an
@@ -39,6 +51,7 @@ Pre-processing was carried out to clean, organize and transform the data, while 
 engineering was used to create new features from the existing data that will be useful for
 making recommendations. I also got familiarized with basic machine learning models and
 NLP techniques, which will be used to build the movie recommendation system.
+
 Week 2: Focused on understanding the different types of recommendation systems that are
 available and how they can be applied to the movie recommendation system. I specifically
 studied content-based filtering, which is a technique that makes recommendations based on
@@ -73,6 +86,7 @@ computes the cosine similarity scores between all pairs of documents. This cosin
 score helps to find similar documents based on their content , based on which movies are
 recommended. We select the top ten cosine similarity scores and recommend the respective
 movies.
+
 Week 3: Sentiment Analysis:
 Performed web scraping on IMDb to collect movie reviews.
 Implemented sentiment analysis using both Naive Bayes and LSTM models.
@@ -80,6 +94,8 @@ Achieved sentiment analysis accuracies of 98.77% (Naive Bayes) and 98.96% (LSTM)
 Web Application Development:
 Utilized Django to build a user-friendly web interface for the recommendation system.
 Enabled users to input preferences and receive personalized movie suggestions.
+
+
 Week 4:Dockerization of the Content-Based Recommendation System
 Dockerization is the process of packaging an application along with its dependencies,
 libraries, and runtime environment into a standardized container. This container can be easily
@@ -105,18 +121,27 @@ application's behavior based on the deployment environment.
 Container Management: Monitor and manage the running containers using Docker
 commands or orchestration tools. Scaling, updating, and managing containers become easier
 with Docker's toolset.
+
+
 Results
 Link to my Github repository:
 MRS: https://github.com/KiranEC11/movie-recommendation_Analytics-club-Project/tree/main
 Docker: https://github.com/KiranEC11/web-interface-mrs
+
+
 Learning Value
 During my project, I gained a comprehensive understanding of the fundamentals of natural
 language processing (NLP) and applied these concepts to model a recommender system. I
 learned about the NLP pipeline, including data acquisition, text preprocessing, feature
 extraction, modeling and Deployment. Also I got familiarized with various recommender
 systems such as content based filtering, collaborative based filtering etc.
+
+
 Tech-stack Used
+
+
 Programming language: Python
+
 Python libraries:
 ● Numpy
 ● Pandas
@@ -130,6 +155,8 @@ Python libraries:
 ● Docker
 ● LSTM
 ● Naive Bayes
+
+
 Coding and execution in Google Colaboratory
 Suggestions for others
 For those who want to model and design a ‘movie recommendation system’, they should have a
